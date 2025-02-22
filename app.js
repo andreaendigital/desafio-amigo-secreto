@@ -23,5 +23,12 @@ function actualizarLista() { // crear funcion de actualizar lista
     const listaAmigos = document.getElementById("listaAmigos"); //selecciono la lista donde se muestran los amigos
     listaAmigos.innerHTML = "";  //previene duplicados al limpiar lista
 
+    for (let i = 0; i < amigos.length; i++) {  // iterar el arreglo con bucle for
+        listaAmigos.innerHTML += `<li>${amigos[i]}</li>`; //crear elementos de lista
+    }
 
-} 
+}
+
+function sortearAmigo() { // funcion para sortear nombre
+
+}
