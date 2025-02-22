@@ -20,5 +20,8 @@ function agregarAmigo() {  // crear función que ingrese nombre y añada a la li
 }
 
 function actualizarLista() { // crear funcion de actualizar lista
+    const listaAmigos = document.getElementById("listaAmigos"); //selecciono la lista donde se muestran los amigos
+    listaAmigos.innerHTML = "";  //previene duplicados al limpiar lista
 
-}
+
+} 
