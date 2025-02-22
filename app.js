@@ -13,4 +13,8 @@ function agregarAmigo() {  // crear función que ingrese nombre y añada a la li
         return;
     }
 
+    amigos.push(nombre); // inserto el nombre en el array
+    actualizarLista();  // llamo a otra funcion para actualizar la lista
+    inputAmigo.value = "";  //limpio el input
+
 }
