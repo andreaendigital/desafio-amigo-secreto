@@ -18,3 +18,7 @@ function agregarAmigo() {  // crear función que ingrese nombre y añada a la li
     inputAmigo.value = "";  //limpio el input
 
 }
+
+function actualizarLista() { // crear funcion de actualizar lista
+
+}
