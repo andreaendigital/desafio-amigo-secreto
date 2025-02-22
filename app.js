@@ -30,5 +30,8 @@ function actualizarLista() { // crear funcion de actualizar lista
 }
 
 function sortearAmigo() { // funcion para sortear nombre
-
+    if (amigos.length === 0) {  // validacion array no vacío
+        alert("No hay amigos en la lista para sortear.");
+        return;
+    }
 }
