@@ -34,4 +34,10 @@ function sortearAmigo() { // funcion para sortear nombre
         alert("No hay amigos en la lista para sortear.");
         return;
     }
+
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length); // genero indice aleatorio
+    const amigoSorteado = amigos[indiceAleatorio]; // se accede al elemento/nombre sorteado con el indice aleatorio
+
+    document.getElementById("resultado").innerHTML = `<p>El amigo sorteado es: <strong>${amigoSorteado}</strong></p>`;
+    //escribe el resultado del sorteo
 }
