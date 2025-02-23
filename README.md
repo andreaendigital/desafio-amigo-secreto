@@ -11,7 +11,7 @@ Crear una web que al ingresar los nombres de los participantes, los enliste y so
 
 👌 1. Desarrolla una función, que permita al usuario ingresar un nombre en el campo de texto y añadirlo a la lista de amigos creada anteriormente.
 
-👌 2. Crea una función que recorra el array amigos y agregue cada nombre como un elemento <li> dentro de una lista HTML. Usa innerHTML para limpiar la lista antes de agregar nuevos elementos.
+👌 2. Crea una función que recorra el array amigos y agregue cada nombre como un elemento "li" dentro de una lista HTML. Usa innerHTML para limpiar la lista antes de agregar nuevos elementos.
 
 👌 3. Escribe una función que seleccione de manera aleatoria uno de los nombres almacenados en el array amigos. Usa Math.random() y Math.floor() para obtener un índice aleatorio.
 
