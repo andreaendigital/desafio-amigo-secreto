@@ -4,6 +4,7 @@ Desafío ONE Oracle "Principante en programación"
 ## Descripción del Proyecto :scroll:
 
 Crear una web que al ingresar los nombres de los participantes, los enliste y sortee uno de ellos, seleccionándolo como amigo secreto.
+Puedes revisarla aqui: https://andreaendigital.github.io/desafio-amigo-secreto/
 
 ## Sobre el proyecto 🚀
 
